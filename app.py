@@ -24,7 +24,7 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 # Sidebar with Image and Selection
-st.sidebar.image("images/bg.jpg", use_container_width =True)
+st.sidebar.image("images/Mobile App.jpg", use_container_width =True)
 category = st.sidebar.selectbox("🔧 Select Conversion Type", list(Converter.units.keys()))
 
 # Tabs for navigation
